@@ -19,7 +19,7 @@ GET /centime/api/hello
 ## User Controller
 This api is to concatinate given name and surname parameters
 ```http
-POST - /centime/api/user
+POST  /centime/api/user
 ```
 
 | Parameter | Type     | Description                |
