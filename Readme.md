@@ -30,8 +30,8 @@ POST - /centime/api/user
  ## Hello User Controller
 This api is to concatinate given name and surname parameters suffixed by Hello
 ```http
-GET - /centime/api/hello_user
-POST - /centime/api/hello_user
+GET  /centime/api/hello_user
+POST  /centime/api/hello_user
 ```
 
 | Parameter | Type     | Description                |
@@ -49,7 +49,7 @@ GET - /centime/api/users/{id}
 | `id` | Integer | **Required**. |
 
 ```http
-GET - /centime/api/users
+GET  /centime/api/users
 ```
 This api is to get all the users saved in database - iterating over nested objects, 
 to display parent and child reference nodes if any
