@@ -13,13 +13,13 @@ This project helps to
 ## Hello Controller
 This api is to print hello as response
 ```http
-GET /centime/api/hello
+GET http://ec2-52-55-61-177.compute-1.amazonaws.com:8080/centime/api/hello
 ```
 
 ## User Controller
 This api is to concatinate given name and surname parameters
 ```http
-POST  /centime/api/user
+POST  http://ec2-52-55-61-177.compute-1.amazonaws.com:8080/centime/api/user
 ```
 
 | Parameter | Type     | Description                |
@@ -30,8 +30,8 @@ POST  /centime/api/user
  ## Hello User Controller
 This api is to concatinate given name and surname parameters suffixed by Hello
 ```http
-GET  /centime/api/hello_user
-POST  /centime/api/hello_user
+GET  http://ec2-52-55-61-177.compute-1.amazonaws.com:8080/centime/api/hello_user
+POST  http://ec2-52-55-61-177.compute-1.amazonaws.com:8080/centime/api/hello_user
 ```
 
 | Parameter | Type     | Description                |
@@ -42,14 +42,14 @@ POST  /centime/api/hello_user
 ## Application User Controller
 This api is to get user by given Id.
 ```http
-GET  /centime/api/users/{id}
+GET  http://ec2-52-55-61-177.compute-1.amazonaws.com:8080/centime/api/users/{id}
 ```
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `id` | Integer | **Required**. |
 
 ```http
-GET  /centime/api/users
+GET  http://ec2-52-55-61-177.compute-1.amazonaws.com:8080/centime/api/users
 ```
 This api is to get all the users saved in database - iterating over nested objects, 
 to display parent and child reference nodes if any
