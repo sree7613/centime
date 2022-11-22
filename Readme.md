@@ -42,7 +42,7 @@ POST  /centime/api/hello_user
 ## Application User Controller
 This api is to get user by given Id.
 ```http
-GET - /centime/api/users/{id}
+GET  /centime/api/users/{id}
 ```
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
